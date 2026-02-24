@@ -1,0 +1,18 @@
+class MyCalculator{
+void add(int a,int b){
+System.out.println(a+b);
+}
+void sub(int a,int b){
+System.out.println(a-b);
+}
+public static void main(String[] ar){
+MyCalculator m = new MyCalculator();
+MyCalculator m1 = new MyCalculator();
+
+m.add(12,23);
+m.sub(12,3);
+System.out.println(m);
+
+System.out.println(m1);
+}
+}

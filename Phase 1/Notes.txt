@@ -1,0 +1,43 @@
+--- 24/02/2026
+Stream API jdk 8
+
+Source (any collection cls) - stream-Intermediate operations like filter
+and map-terminal operation (forEach)
+
+predicate is the functional interface which resturns true or false
+int IEEE method forEach is an default method
+mini project on Streams 
+
+jdbc - stands for java database connectivity
+all classes and interfaces are written into the java.sql package
+here we can find more interfaces less classes
+
+Connection
+Statement
+ResultSet
+DriverManager - classesSteps to connect to database
+java code is a process
+MySQL is another process
+your java code is going to work with MySQL - another process
+
+import java.sql package
+download the driver java-MySQL driver
+establish Connection - DriverManager.getConnection->connection 
+3 argumanest - url of MySQL upto database we want to connect
+user name
+password
+checkedException - 
+
+once connection is done literally we are inside a MySQL commadnline
+like client interface up to that particular database
+
+we need Statement - to map sql Statement
+ddl, dml
+
+select - executeQuery
+ddl, dml - executeUpdate
+
+select - we will get a ResultSet
+traverse over the ResultSet
+get java based data - getString
+
